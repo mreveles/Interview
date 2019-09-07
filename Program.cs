@@ -8,14 +8,22 @@ namespace Interview
     {
         static void Main(string[] args)
         {
+            //initiats var to store total coin amount
             int totalcoins = 0;
-            Console.WriteLine("What number do you want to go to?");
-            int number = Convert.ToInt32(Console.ReadLine());
+            int number = 0;
             int remainder = number;
             bool remainder1 = true;
+
+            //provides intructions and collect user input
+            Console.WriteLine("What number do you want to go to?");
+            number = Convert.ToInt32(Console.ReadLine());
+
             do
             {
+                //sets a variable for switch statement
                 int a;
+
+                //assigns value to switch var
                 if(remainder>=5){
                     a = 1;
                 }else if(remainder<5 & remainder>=3) {
@@ -24,6 +32,7 @@ namespace Interview
                     a= 3;
                 }else{a= 4;}
 
+                //performs method based on value of remainder
                 switch(a)
                 {
                     case 1:
@@ -49,6 +58,7 @@ namespace Interview
             }while(remainder1);
             Console.WriteLine("Minimum coins possible {0}", totalcoins);
         }
+        //get the amount large coins needed
         static int LargeCoins(int remainder)
         {
             int coins = 0;
@@ -60,7 +70,7 @@ namespace Interview
             //Console.WriteLine("Large Coins {0}", coins);
             return coins;
         }
-
+        //gets the amount of medium coins needed
         static int MedCoins(int remainder)
         {
             int coins = 0;
@@ -72,7 +82,7 @@ namespace Interview
             //Console.WriteLine("Med Coins {0}", coins);
             return coins;
         }
-
+        //gets the amount of small coins needed.
         static int SmallCoins(int remainder)
         {
             int coins = 0;
