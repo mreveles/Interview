@@ -11,13 +11,14 @@ namespace Interview
             //initiats var to store total coin amount
             int totalcoins = 0;
             int number = 0;
-            int remainder = number;
+            //sets bool for do while statement
             bool remainder1 = true;
 
             //provides intructions and collect user input
             Console.WriteLine("What number do you want to go to?");
             number = Convert.ToInt32(Console.ReadLine());
-
+            
+            int remainder = number;
             do
             {
                 //sets a variable for switch statement
@@ -56,7 +57,7 @@ namespace Interview
                     break;
                 }
             }while(remainder1);
-            Console.WriteLine("Minimum coins possible {0}", totalcoins);
+            Console.WriteLine("Minimum coins possible to reach {0} is {1}.", number,totalcoins);
         }
         //get the amount large coins needed
         static int LargeCoins(int remainder)
