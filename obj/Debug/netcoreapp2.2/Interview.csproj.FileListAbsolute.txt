@@ -1,0 +1,11 @@
+C:\CIDM4390\4390Proj\Interview\bin\Debug\netcoreapp2.2\Interview.deps.json
+C:\CIDM4390\4390Proj\Interview\bin\Debug\netcoreapp2.2\Interview.runtimeconfig.json
+C:\CIDM4390\4390Proj\Interview\bin\Debug\netcoreapp2.2\Interview.runtimeconfig.dev.json
+C:\CIDM4390\4390Proj\Interview\bin\Debug\netcoreapp2.2\Interview.dll
+C:\CIDM4390\4390Proj\Interview\bin\Debug\netcoreapp2.2\Interview.pdb
+C:\CIDM4390\4390Proj\Interview\obj\Debug\netcoreapp2.2\Interview.csprojAssemblyReference.cache
+C:\CIDM4390\4390Proj\Interview\obj\Debug\netcoreapp2.2\Interview.csproj.CoreCompileInputs.cache
+C:\CIDM4390\4390Proj\Interview\obj\Debug\netcoreapp2.2\Interview.AssemblyInfoInputs.cache
+C:\CIDM4390\4390Proj\Interview\obj\Debug\netcoreapp2.2\Interview.AssemblyInfo.cs
+C:\CIDM4390\4390Proj\Interview\obj\Debug\netcoreapp2.2\Interview.dll
+C:\CIDM4390\4390Proj\Interview\obj\Debug\netcoreapp2.2\Interview.pdb
