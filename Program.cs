@@ -19,6 +19,7 @@ namespace Interview
             number = Convert.ToInt32(Console.ReadLine());
             
             int remainder = number;
+            ""
             do
             {
                 //sets a variable for switch statement
